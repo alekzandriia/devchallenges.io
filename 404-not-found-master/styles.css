@@ -1,0 +1,97 @@
+body {
+  color: 4F4F4F;
+  padding: 5vmin;
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+
+main {
+  display: flex;
+  gap: 5vmin;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  width: 50%;
+}
+
+h2,
+p,
+button {
+  font-family: "Space Mono", monospace;
+}
+
+h1 {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  width: 15ch;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p {
+  font-weight: 100;
+  font-size: 1.5rem;
+  max-width: 30ch;
+}
+
+button {
+  text-transform: uppercase;
+  padding: 1rem;
+  border: none;
+  background: #333333;
+  color: white;
+}
+
+button:hover {
+  background: #60598e;
+  cursor: pointer;
+}
+
+footer {
+  color: #bdbdbd;
+  font-family: "Montserrat";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  color: #bdbdbd;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #60598e;
+}
+a:visited {
+  color: #ff6d5a;
+}
+
+a:active {
+  color: #ffd25b;
+}
+
+@media only screen and (max-width: 650px) {
+  main {
+    flex-wrap: wrap;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
